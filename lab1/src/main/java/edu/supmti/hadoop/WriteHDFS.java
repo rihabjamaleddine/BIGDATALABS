@@ -11,8 +11,8 @@ public class WriteHDFS {
             System.exit(1);
         }
 
-        String outputPath = args[0]; // exemple: /user/root/output/hello.txt
-        String text = args[1]; // exemple: "Bonjour depuis Rihab !"
+        String outputPath = args[0];
+        String text = args[1];
 
         Configuration conf = new Configuration();
         FileSystem fs = FileSystem.get(conf);
