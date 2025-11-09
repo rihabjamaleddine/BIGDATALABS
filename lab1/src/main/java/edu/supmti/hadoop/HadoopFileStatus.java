@@ -6,7 +6,7 @@ import org.apache.hadoop.fs.*;
 
 public class HadoopFileStatus {
     public static void main(String[] args) {
-        // التحقق من عدد المُعطيات
+
         if (args.length < 3) {
             System.err.println("Usage: HadoopFileStatus <parent_path> <filename> <newname>");
             System.exit(1);
